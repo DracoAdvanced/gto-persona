@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "agents": [
+    {
+      "identifier": "xiaoyi", 
+      "author": "GTO-Commander",
+      "createAt": "2026-03-02",
+      "meta": {
+        "title": "小依老师",
+        "description": "你的专属AI理科助教",
+        "tags": ["教育", "GTO专属"],
+        "avatar": "👩‍🏫"
+      },
+      "schemaVersion": 1
+    }
+  ]
+}
