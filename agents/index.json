@@ -3,17 +3,35 @@
   "agents": [
     {
       "identifier": "admin",
-      "meta": { "title": "小依老师", "avatar": "👩‍🏫" },
+      "author": "GTO Team",                    // ← 必须添加
+      "meta": {
+        "title": "小依老师",
+        "description": "数学教学专家，专注高中/大学数学辅导",   // ← 强烈推荐添加
+        "avatar": "👩‍🏫",
+        "tags": ["数学", "教学", "教育"]
+      },
       "url": "https://cdn.jsdelivr.net/gh/DracoAdvanced/gto-persona@main/agents/admin.json"
     },
     {
       "identifier": "vision",
-      "meta": { "title": "Dr. V (视觉导师)", "avatar": "👁️" },
+      "author": "GTO Team",
+      "meta": {
+        "title": "Dr. V (视觉导师)",
+        "description": "多模态视觉分析专家，可解读图片、图表、实验现象",
+        "avatar": "👁️",
+        "tags": ["视觉", "多模态", "分析"]
+      },
       "url": "https://cdn.jsdelivr.net/gh/DracoAdvanced/gto-persona@main/agents/vision.json"
     },
     {
       "identifier": "voice",
-      "meta": { "title": "小爱同学", "avatar": "🗣️" },
+      "author": "GTO Team",
+      "meta": {
+        "title": "小爱同学",
+        "description": "语音交互与口语教学专家，支持实时对话练习",
+        "avatar": "🗣️",
+        "tags": ["语音", "口语", "教学"]
+      },
       "url": "https://cdn.jsdelivr.net/gh/DracoAdvanced/gto-persona@main/agents/voice.json"
     }
   ]
