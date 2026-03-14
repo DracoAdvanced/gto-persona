@@ -1,0 +1,6 @@
+{
+  "id": "test",
+  "name": "测试助手",
+  "systemRole": "你是一个测试助手",
+  "model": "glm-4-flash"
+}
